@@ -1,6 +1,6 @@
 ﻿namespace laco_de_repeticao
 {
-    partial class Form1
+    partial class lacoDeRepeticao
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -42,26 +42,30 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Yellow;
+            this.button1.BackColor = System.Drawing.Color.DarkGray;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.DarkTurquoise;
+            this.button1.FlatAppearance.BorderSize = 2;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(226, 316);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(87, 23);
             this.button1.TabIndex = 1;
-            this.button1.Text = "clique Aqui";
+            this.button1.Text = "CLIQUE AQUI";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // lacoDeRepeticao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(594, 383);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ClientSize = new System.Drawing.Size(416, 402);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listarFor);
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "lacoDeRepeticao";
+            this.ShowIcon = false;
             this.Text = "Form1";
             this.ResumeLayout(false);
 
